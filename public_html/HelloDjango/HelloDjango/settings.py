@@ -25,7 +25,8 @@ SECRET_KEY = 'hzwvriho-&t$r%3mo%hcgxs(wv#qa6qe&v0xg=g&qmatz1f38%'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['laidboy.beget.tech']
+ALLOWED_HOSTS = ['laidboy.beget.tech',
+                 '127.0.0.1']
 
 
 # Application definition
@@ -37,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'firstapp'
 ]
 
 MIDDLEWARE = [
